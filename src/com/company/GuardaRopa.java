@@ -15,6 +15,7 @@ public class GuardaRopa {
     this.listaDePrendas = new HashMap<Integer, List<Prenda>>();
   }
 
+
   public void mostrarPrendas(){
     for (Integer integer : listaDePrendas.keySet()) {
       System.out.println(listaDePrendas.get(integer));
@@ -24,6 +25,8 @@ public class GuardaRopa {
   public void mostrarPrendasPorIdentificador(Integer identificador){
     System.out.println(this.listaDePrendas.get(identificador));
   }
+
+
 
   public Integer guardarPrendas(List<Prenda> listaDePrenda){
     this.identificador++;

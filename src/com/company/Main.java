@@ -34,13 +34,9 @@ public class Main {
 
         teatroArgentino.guardarPrendas(prendasImaLau);
 
-        teatroArgentino.devolverPrendas(1);
+        teatroArgentino.mostrarPrendasPorIdentificador(1);
 
-        teatroArgentino.devolverPrendas(1);
 
-        System.out.println(teatroArgentino.getIdentificador());
-
-        teatroArgentino.mostrarPrendasPorIdentificador(0);
 
 
 

@@ -17,4 +17,9 @@ public class Prenda {
   public String getModelo() {
     return modelo;
   }
+
+  @Override
+  public String toString() {
+    return this.marca + " " + this.modelo;
+  }
 }
